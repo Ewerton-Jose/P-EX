@@ -1,3 +1,36 @@
+@charset 'UTF-8';
+
+:root{
+    --cor1: #ffffff;
+    --cor2: #000000;
+    --cor3: #ff0000;
+    --cor4: #00ff00;
+    --cor5: #0000ff;
+
+    --font1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+* {
+    margin: 0px;
+}
+
+
+
 body{
-    background-color: rgb(255, 0, 0);
+    background-color: var(--cor1);
+    font-family: var(--font1);
+}
+
+header{
+
+}
+
+main{
+
+}
+
+footer{
+    
 }
