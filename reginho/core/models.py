@@ -5,10 +5,10 @@ from django.db import models
 class Regi(models.Model):
 
     materias = (
-        ('mat', 'matematica'),
-        ('fis', 'fisica'),
-        ('bio', 'biologia'),
-        ('qui', 'quimica')
+        ('Matematica', 'matematica'),
+        ('Física', 'fisica'),
+        ('Biologia', 'biologia'),
+        ('Química', 'quimica')
     )
 
     title = models.CharField(max_length=255)
